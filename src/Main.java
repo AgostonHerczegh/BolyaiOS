@@ -10,6 +10,9 @@ public class Main {
                 case "hello":
                     System.out.println("Hello World!");
                     break;
+                case "info":
+                    System.out.println("v1");
+                    break;
             }
         }
         while (sor != "exit");
