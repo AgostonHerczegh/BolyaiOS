@@ -13,6 +13,9 @@ public class Main {
                 case "info":
                     System.out.println("v1");
                     break;
+                case "exit":
+                    System.out.println("Kilépés, viszlát!");
+                    break;
             }
         }
         while (sor != "exit");
