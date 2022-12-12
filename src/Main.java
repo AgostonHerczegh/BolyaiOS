@@ -6,6 +6,11 @@ public class Main {
 
             Scanner sc = new Scanner(System.in);
             sor = sc.nextLine();
+            switch (sor) {
+                case "hello":
+                    System.out.println("Hello World!");
+                    break;
+            }
         }
         while (sor != "exit");
     }
